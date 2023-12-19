@@ -1,0 +1,188 @@
+/* Grundlegendes Styling, das für alle Geräte gilt */
+body {
+    background-color: rgb(225, 225, 225);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 4%;
+    box-sizing: border-box;
+    font-family: 'Silkscreen', sans-serif;
+}
+
+header, main, footer {
+    margin: 0 auto;
+    padding: 4%;
+    max-width: 600px; /* Maximalbreite für größere Bildschirme */
+}
+
+/* Responsives Design für Handys */
+@media screen and (max-width: 600px) {
+    header, main, footer {
+        width: 100%; /* Breite auf mobilen Geräten */
+        padding: 50px;
+    }
+
+  
+}
+
+
+
+.music-player {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(255, 151, 59);
+    height: 200px;
+    width: 300px;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    
+    
+}
+
+.upper-section {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    
+}
+
+#cover {
+    display: flex;
+    background-color: black;
+    width: 90px;
+    height: 90px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#titelbox {
+    display: flex;
+    background-color: rgb(255, 151, 59);
+    text-align: center;
+    width: 130px;
+    height: 90px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+#trackTitel {
+    text-align: center;
+    
+}
+
+
+
+.lower-section {
+    margin-top: 0px;
+    width: 100%;
+}
+
+#playpausebuttons {
+
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-top: 30%;
+  padding-left: 40px;
+}
+
+#pause {
+    
+    background: transparent; 
+    border: none; 
+    cursor: pointer; 
+    width: 20px;
+    height: 20px;
+}
+
+#play {
+  
+    background: transparent; 
+    border: none; 
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+#forward {
+  
+    background: transparent; 
+    border: none; 
+    cursor: pointer;
+   
+  
+    width: 20px;
+    height: 20px;
+}
+
+#backward {
+    
+    background: transparent; 
+    border: none; 
+    cursor: pointer;
+    
+    width: 20px;
+    height: 20px;
+}
+
+
+#forwardbutton {
+    width: 25px;
+    height: 25px;
+
+}
+
+#backwardbutton {
+    width: 25px;
+    height: 25px;
+
+}
+
+
+#pausebutton {
+    width: 30px;
+    height: 30px;
+
+}
+
+#playbutton {
+    width: 30px;
+    height: 30px;
+
+}
+
+.playlist {
+    display: flex;
+    background-color: rgb(225, 225, 225);
+    height: 500px;
+    width: 300px;
+    border-radius: 10px;
+    overflow: auto;
+    margin-bottom: 30px;
+  
+
+}
+
+ol#trackList li {
+    background-color: #64bcff; /* Hintergrundfarbe für jedes Listenelement */
+    width: 250px;
+    margin-left: -35px;
+    margin-bottom: 2px; /* Abstand zwischen den Listenelementen */
+    padding: 21px; /* Innenabstand für jedes Listenelement */
+    border-radius: 10px; /* Abgerundete Ecken */
+    cursor: pointer; /* Ändert den Cursor, um Interaktivität anzudeuten */
+    transition: background-color 0.3s; /* Glatter Übergang für Hover-Effekt */
+}
+
+ol#trackList {
+
+    list-style: none; /* Entfernt die Standard-Nummerierung */
+    
+   
+}
+
+#footer {
+   
+
+   width: 100px;
+}

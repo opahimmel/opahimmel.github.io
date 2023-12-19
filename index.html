@@ -1,1 +1,99 @@
-blablabla test
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jungle Website</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <audio id="audioPlayer" src="" hidden></audio>
+   
+</head>
+<body>
+   
+
+    <main>
+        <!-- Musikplayer -->
+        <section class="music-player">
+           <div class="upper-section">
+            
+            <div id="cover">
+                <img src="assets/cover/cover.jpg" alt="cover">
+            </div>
+               
+            <div id=titelbox><div id="trackTitle"></div></div>    
+            
+
+            </div>
+
+     
+            <div class="lower-section">
+                <section id="playpausebuttons"> 
+
+              
+
+               
+                    <button id="backward"><img src="assets/icons/backward-solid.svg" id="backwardbutton"></button>
+    
+                    <button id="play"><img src="assets/icons/play-solid.svg" id="playbutton"></button>
+                    
+                    <button id="pause"><img src="assets/icons/pause-solid.svg" id="pausebutton"></button>
+    
+                    <button id="forward"><img src="assets/icons/forward-solid.svg" id="forwardbutton"></button>
+                   
+    
+                </section>
+
+            </div>
+            
+
+            
+        </section>
+
+       
+
+        <section class="playlist">
+            <ol id="trackList">
+                <li data-track="01 Dry Your Tears.mp3">Dry Your Tears</li>
+                <li data-track="02 Keep Moving.mp3">Keep Moving</li>
+                <li data-track="03 All Of The Time.mp3">All Of The Time</li>
+                <li data-track="04 Romeo ft. Bas.mp3">Romeo ft. Bas</li>
+                <li data-track="05 Lifting You.mp3">Lifting You</li>
+                <li data-track="06 Bonnie Hill.mp3">Bonnie Hill</li>
+                <li data-track="07 Fire.mp3">Fire</li>
+                <li data-track="08 Talk About It.mp3">Talk About It</li>
+                <li data-track="09 No Rules.mp3">No Rules</li>
+                <li data-track="10 Truth.mp3">Truth</li>
+                <li data-track="11 What D'You Know About Me.mp3">What D'You Know About Me</li>
+                <li data-track="12 Just Fly, Don't Worry.mp3">Just Fly, Don't Worry</li>
+                <li data-track="13 Goodbye My Love.mp3">Goodbye My Love</li>
+                <li data-track="14 Can't Stop The Stars.mp3">Can't Stop The Stars</li>
+            </ol>
+            
+            
+        </section>
+
+     
+
+        <!-- Download-Bereich -->
+        <section id="download">
+            
+            <!-- Direkter Download-Link -->
+            <a href="assets/download/Jungle_Loving_In_Stereo.zip" download>Album herunterladen</a>
+
+           
+            
+        </section>
+
+    <footer id="footer">
+        <p>© 2023 papis weihnachtsgeschenk</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+    
+</body>
+</html>
