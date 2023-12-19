@@ -3,14 +3,14 @@ body {
     background-color: rgb(225, 225, 225);
 
     margin: 0;
-    padding: 2%;
+    padding: 3%;
     box-sizing: border-box;
     font-family: 'Silkscreen', sans-serif;
 }
 
 header, main, footer {
     margin: 0 auto;
-    padding: 2%;
+    padding: 3%;
     max-width: 100%; /* Maximalbreite für größere Bildschirme */
 }
 
@@ -18,7 +18,7 @@ header, main, footer {
 @media screen and (max-width: 600px) {
     header, main, footer {
         width: 100%; /* Breite auf mobilen Geräten */
-        margin: 4%;
+        margin: 5%;
     }
 
   
