@@ -1,7 +1,7 @@
 /* Grundlegendes Styling, das für alle Geräte gilt */
 body {
     background-color: rgb(225, 225, 225);
-    font-family: Arial, sans-serif;
+
     margin: 0;
     padding: 4%;
     box-sizing: border-box;
@@ -11,14 +11,14 @@ body {
 header, main, footer {
     margin: 0 auto;
     padding: 4%;
-    max-width: 600px; /* Maximalbreite für größere Bildschirme */
+    max-width: 100%; /* Maximalbreite für größere Bildschirme */
 }
 
 /* Responsives Design für Handys */
 @media screen and (max-width: 600px) {
     header, main, footer {
         width: 100%; /* Breite auf mobilen Geräten */
-        padding: 50px;
+        margin: 6%;
     }
 
   
